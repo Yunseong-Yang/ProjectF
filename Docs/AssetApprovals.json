@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "release_maps": [],
+  "assets": [],
+  "pending": [
+    {
+      "name": "Separate native terrain and complete-scene art review",
+      "record": "ArtSource/Environment/TerrainReview/source-manifest.json",
+      "additional_sources": "ArtSource/Environment/TerrainReview/additional-scene-source.json",
+      "blender_record": "ArtSource/Environment/TerrainReview/blender-model-validation.json",
+      "import_record": "ArtSource/Environment/TerrainReview/unreal-model-validation.json",
+      "status": "review_only_source_level_composition_and_collision_not_gameplay_accepted"
+    },
+    {
+      "name": "Basic rear strike presentation candidate",
+      "record": "ArtSource/Animations/RearExecution/source-manifest.json",
+      "blender_record": "ArtSource/Animations/RearExecution/blender-validation.json",
+      "contact_record": "ArtSource/Animations/RearExecution/contact-review.json",
+      "status": "basic_rear_motion_connected_other_variants_and_final_contact_camera_acceptance_incomplete"
+    },
+    {
+      "name": "MountainFrontier environment and map",
+      "record": "ArtSource/Environment/frontier-layout.json",
+      "source_record": "ArtSource/Environment/source-manifest.json",
+      "status": "development_candidate_needs_final_visual_density_and_playthrough_acceptance"
+    },
+    {
+      "name": "Humanoid guard derivative and nine baked animations",
+      "record": "ArtSource/Characters/Guard/blender-validation.json",
+      "unreal_record": "ArtSource/Characters/Guard/unreal-validation.json",
+      "source_record": "ArtSource/Characters/Guard/source-manifest.json",
+      "status": "development_candidate_12_material_slots_need_consolidation_or_measured_exception_and_joint_contact_review"
+    },
+    {
+      "name": "Field rifle derivative",
+      "record": "ArtSource/Weapons/Rifle/unreal-validation.json",
+      "blender_record": "ArtSource/Weapons/Rifle/blender-validation.json",
+      "status": "development_candidate_needs_first_person_and_remote_visual_acceptance"
+    },
+    {
+      "name": "SM_Alarm_Industrial_01",
+      "record": "ArtSource/Models/Alarm/optimization.json",
+      "status": "needs_density_performance_and_visual_review"
+    },
+    {
+      "name": "AS_Guard_WalkTurn_SOMA",
+      "record": "ArtSource/Animations/Kimodo/WalkTurn_v1/conversion.json",
+      "status": "needs_retarget_and_contact_review"
+    },
+    {
+      "name": "Template character, weapon, and test geometry",
+      "status": "test_only_unapproved"
+    },
+    {
+      "name": "Temple environment derivatives, 233 model library and exterior siege candidate",
+      "optimization_manifest": "ArtSource/Environment/Temple/optimization-final.json",
+      "source_record": "ArtSource/Environment/Temple/exported-models.json",
+      "blender_record": "ArtSource/Environment/Temple/blender-validation.json",
+      "unreal_record": "ArtSource/Environment/Temple/unreal-validation.json",
+      "scene_record": "ArtSource/Environment/Temple/frontier-placement.json",
+      "status": "development_candidate_exterior_main_stair_patrol_and_reinforcement_approach_verified_package21_full_interior_art_and_lifetime_acceptance_incomplete",
+      "route_record": "Saved/Implementation/Continuation_20261031_185304/navigation-summary.json",
+      "mesh_collision_record": "Saved/Implementation/Continuation_20261031_185304/temple-route-asset-validation.json",
+      "patrol_record": "Saved/Implementation/Continuation_20261031_185304/authored-stair-patrol.json",
+      "ai_approach_record": "Saved/Implementation/Continuation_20261031_185304/ai-approach-diagnosis.json",
+      "runtime_validation_record": "Saved/Implementation/Continuation_20261031_185304/final-verification.json"
+    },
+    {
+      "name": "Isolated first-person arms derivative",
+      "source_record": "ArtSource/Characters/FirstPerson/source.json",
+      "blender_record": "ArtSource/Characters/FirstPerson/blender-validation.json",
+      "unreal_record": "ArtSource/Characters/FirstPerson/unreal-validation.json",
+      "status": "not_default_applied_visual_contact_quality_unapproved_player_blueprint_restored"
+    },
+    {
+      "name": "Human owner-view arms fitted to the existing player skeleton",
+      "source_record": "ArtSource/Characters/FirstPersonHuman/rig-inspection.json",
+      "blender_record": "ArtSource/Characters/FirstPersonHuman/blender-validation.json",
+      "unreal_record": "ArtSource/Characters/FirstPersonHuman/unreal-validation.json",
+      "material_record": "ArtSource/Characters/FirstPersonHuman/view-material.json",
+      "view_record": "ArtSource/Characters/FirstPersonHuman/preview-application.json",
+      "status": "development_candidate_normal_view_calibrated_full_animation_contact_and_package_verification_pending"
+    },
+    {
+      "name": "Normal-clothing owner-view field arms",
+      "optimization_manifest": "ArtSource/Characters/FirstPersonField/optimization-final.json",
+      "source_record": "ArtSource/Characters/FirstPersonField/source.json",
+      "blender_record": "ArtSource/Characters/FirstPersonField/blender-validation.json",
+      "unreal_record": "ArtSource/Characters/FirstPersonField/unreal-validation.json",
+      "view_record": "ArtSource/Characters/FirstPersonField/preview-application.json",
+      "status": "development_default_rifle_pistol_views_and_package18_checks_recorded_full_contact_and_release_acceptance_pending"
+    }
+  ]
+}
